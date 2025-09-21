@@ -214,3 +214,6 @@ __marimo__
 
 # Streamlit
 .streamlitsecrets.toml
+
+# Dataset cleaned files
+dataset_cleaned/
