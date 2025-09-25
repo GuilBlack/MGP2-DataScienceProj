@@ -21,7 +21,7 @@ Y a-t-il une disparité entre les hits aux US et les hits internationaux ? Quell
 Quelles sont les caractéristiques audio les plus présentes dans les hits ? Y a-t-il des caractéristiques communes entre les hits aux US et les hits internationaux ?
 
 ## Organisation des fichiers
-Le jupyter notebook utilisé pour nettoyer les données est `songs-preprocessing.ipynb`.
+Le jupyter notebook utilisé pour nettoyer les données est `songs-preprocessing.ipynb`. Ce préprocessing doit être fait avant d'exécuter le dashboard car les datasets nettoyés ne sont pas inclus dans le repo.
 Le jupyter notebook utilisé pour l'analyse des données est `songs-vis.ipynb`.
 Le dashboard est dans `website.py`.
 Les datasets originaux sont dans le dossier `dataset/`.
