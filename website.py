@@ -49,7 +49,7 @@ def spotify_hit_genres_pie(df, year, top_n_genres=10):
     ax.pie(new_df["count"], None, labels=new_df["artist_genres"], autopct="%1.0f%%")
     
     st.pyplot(fig)
-    st.caption(f"Spotify-only songs that are on the billboard in {year} (by Genre Share)")
+    st.caption(f"Spotify songs that are on the billboard in {year} (by Genre Share)")
 
 st.set_page_config(layout="wide")
 
